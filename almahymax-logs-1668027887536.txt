@@ -1,0 +1,31 @@
+2022-11-09T20:48:06.536884+00:00 app[api]: Attach DATABASE (@ref:postgresql-asymmetrical-15100) by user almahymax@gmail.com
+2022-11-09T20:48:06.536884+00:00 app[api]: Running release v5 commands by user almahymax@gmail.com
+2022-11-09T20:48:06.551926+00:00 app[api]: @ref:postgresql-asymmetrical-15100 completed provisioning, setting DATABASE_URL. by user almahymax@gmail.com
+2022-11-09T20:48:06.551926+00:00 app[api]: Release v6 created by user almahymax@gmail.com
+2022-11-09T20:48:07.000000+00:00 app[api]: Build started by user almahymax@gmail.com
+2022-11-09T20:52:52.000000+00:00 app[api]: Build succeeded
+2022-11-09T20:52:52.777474+00:00 app[api]: Deployed worker (a00936a00a84) by user almahymax@gmail.com
+2022-11-09T20:52:52.777474+00:00 app[api]: Release v7 created by user almahymax@gmail.com
+2022-11-09T20:59:08.221600+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=almahymax.herokuapp.com request_id=027018cc-bf98-4abd-92ff-9616eb859af9 fwd="102.126.118.92" dyno= connect= service= status=503 bytes= protocol=https
+2022-11-09T20:59:09.042573+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=almahymax.herokuapp.com request_id=56ac4688-b05f-42d3-8ebd-87d1fc409e64 fwd="102.126.118.92" dyno= connect= service= status=503 bytes= protocol=https
+2022-11-09T21:03:49.762585+00:00 heroku[worker.1]: Starting process with command `/bin/sh -c npm\ start`
+2022-11-09T21:03:50.517915+00:00 heroku[worker.1]: State changed from starting to up
+2022-11-09T21:03:53.008173+00:00 app[worker.1]: 
+2022-11-09T21:03:53.016344+00:00 app[worker.1]: > Aquabot-MD@1.0.0 start /root/aquabot
+2022-11-09T21:03:53.016345+00:00 app[worker.1]: > supervisor -s bot.js
+2022-11-09T21:03:53.016345+00:00 app[worker.1]: 
+2022-11-09T21:03:53.132271+00:00 app[worker.1]: 
+2022-11-09T21:03:53.132839+00:00 app[worker.1]: Running node-supervisor with
+2022-11-09T21:03:53.132913+00:00 app[worker.1]:   program 'bot.js'
+2022-11-09T21:03:53.132964+00:00 app[worker.1]:   --watch '.'
+2022-11-09T21:03:53.133021+00:00 app[worker.1]:   --extensions 'node,js'
+2022-11-09T21:03:53.133066+00:00 app[worker.1]:   --exec 'node'
+2022-11-09T21:03:53.133136+00:00 app[worker.1]: 
+2022-11-09T21:03:53.133328+00:00 app[worker.1]: Starting child process with 'node bot.js'
+2022-11-09T21:03:53.203559+00:00 app[worker.1]: Watching directory '/root/aquabot' for changes.
+2022-11-09T21:03:53.203634+00:00 app[worker.1]: Press rs for restarting the process.
+2022-11-09T21:03:55.938719+00:00 app[worker.1]: Loading EN language...
+2022-11-09T21:04:01.433586+00:00 app[worker.1]: 📡checking session code...
+2022-11-09T21:04:18.800138+00:00 app[worker.1]: 🪢session Code Verification Completed
+2022-11-09T21:03:04.234110+00:00 app[api]: Scaled to worker@1:Free by user almahymax@gmail.com
+2022-11-09T21:04:44.692233+00:00 app[worker.1]: ✅connected
